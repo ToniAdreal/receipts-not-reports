@@ -36,10 +36,11 @@ in the paper: same-round cancelling renames (4 missed events).
 
 ## Main agent still to do (NOT this worker's job)
 
-1. Create the public code repository and add its link to the report's
-   Code and Data section (currently: "included in the submission
-   package; public link to be added on submission") and to the README.
-   Rebuild the PDF after adding the link and re-check the page count.
+1. DONE 2026-11-06 08:20 PST (main agent): public repo created at
+   https://github.com/ToniAdreal/receipts-not-reports and pushed
+   (HEAD 5b5c2f6, in sync with origin). Link added to the report's Code
+   and Data section and to the README; PDF rebuilt (123,431 bytes,
+   body 8 pages, total 11 pages); tests 59/59 green.
 2. Submit via the official sprint submission form before 2026-11-08
    23:59 AoE (same title on any resubmission replaces the old one).
 3. Confirm the submission confirmation email arrives; check spam,
