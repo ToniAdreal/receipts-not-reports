@@ -21,6 +21,7 @@ from dataclasses import dataclass, field
 from typing import Any
 
 from .evidence import EvidenceLog
+from .tamper import TamperConfig, Tamperer, TamperEvent
 
 ROLES = ("planner", "researcher", "coder", "critic")
 
@@ -108,9 +109,14 @@ class SwarmRun:
     board: list[BoardMessage]
     resource: SharedResource
     self_reports: list[dict[str, Any]]
+    tamper_events: tuple[TamperEvent, ...] = ()
+    tamperers: tuple[str, ...] = ()
 
     def summary(self) -> dict[str, Any]:
         ok, _ = self.evidence.verify()
+        by_kind: dict[str, int] = {}
+        for event in self.tamper_events:
+            by_kind[event.kind] = by_kind.get(event.kind, 0) + 1
         return {
             "agents": self.agents,
             "rounds": self.rounds,
@@ -121,13 +127,23 @@ class SwarmRun:
             "resource_writes": self.resource.writes,
             "chain_ok": ok,
             "head_hash": self.evidence.head_hash,
+            "tamperers": list(self.tamperers),
+            "tamper_events": len(self.tamper_events),
+            "tamper_by_kind": by_kind,
         }
 
 
 class Sandbox:
     """The environment: board, resource, evidence log, and the turn loop."""
 
-    def __init__(self, *, agents: int, rounds: int, seed: int) -> None:
+    def __init__(
+        self,
+        *,
+        agents: int,
+        rounds: int,
+        seed: int,
+        tamper: TamperConfig | None = None,
+    ) -> None:
         if agents < 0:
             raise ValueError("agents must be >= 0")
         if rounds < 0:
@@ -138,11 +154,21 @@ class Sandbox:
         self.rng = random.Random(seed)
         self.evidence = EvidenceLog()
         self.board: list[BoardMessage] = []
+        self._next_board_id = 0  # monotonic, never reused even if messages are deleted
         self.resource = SharedResource()
         self.agents = [
             Agent(id=i, name=f"agent-{i}", role=ROLES[i % len(ROLES)])
             for i in range(agents)
         ]
+        # Tampering (M3) acts only on the agent-controlled naive record
+        # (board + agent memory). It uses its own RNG derived from the
+        # seed, so the committed evidence is byte-identical with
+        # tampering on or off.
+        self.tamperer = (
+            Tamperer(seed=seed, config=tamper, agents=self.agents)
+            if tamper is not None
+            else None
+        )
 
     def _commit(
         self, agent: Agent, action: str, payload: dict[str, Any], round_no: int
@@ -160,15 +186,17 @@ class Sandbox:
         text = self.rng.choice(MESSAGE_TEMPLATES).format(
             name=agent.name, role=agent.role, round=round_no, task=task
         )
+        board_id = self._next_board_id
+        self._next_board_id += 1
         self._commit(
             agent,
             "post_message",
-            {"text": text, "board_id": len(self.board)},
+            {"text": text, "board_id": board_id},
             round_no,
         )
         self.board.append(
             BoardMessage(
-                id=len(self.board), author=agent.name, round_no=round_no, text=text
+                id=board_id, author=agent.name, round_no=round_no, text=text
             )
         )
 
@@ -199,6 +227,11 @@ class Sandbox:
         for round_no in range(self.rounds):
             for agent in self.agents:
                 self._agent_turn(agent, round_no)
+            # Tamperers rewrite the naive record after the round's turns.
+            if self.tamperer is not None:
+                self.tamperer.tamper_round(
+                    board=self.board, agents=self.agents, round_no=round_no
+                )
         return SwarmRun(
             agents=self.agents_n,
             rounds=self.rounds,
@@ -207,9 +240,21 @@ class Sandbox:
             board=list(self.board),
             resource=self.resource,
             self_reports=[a.self_report() for a in self.agents],
+            tamper_events=tuple(
+                self.tamperer.events if self.tamperer is not None else ()
+            ),
+            tamperers=tuple(
+                self.tamperer.tamperer_names if self.tamperer is not None else ()
+            ),
         )
 
 
-def run_swarm(*, agents: int, rounds: int, seed: int) -> SwarmRun:
+def run_swarm(
+    *,
+    agents: int,
+    rounds: int,
+    seed: int,
+    tamper: TamperConfig | None = None,
+) -> SwarmRun:
     """Convenience entry point: build a sandbox and run it to completion."""
-    return Sandbox(agents=agents, rounds=rounds, seed=seed).run()
+    return Sandbox(agents=agents, rounds=rounds, seed=seed, tamper=tamper).run()
