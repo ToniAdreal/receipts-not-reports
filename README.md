@@ -5,6 +5,9 @@ Tamper-evident oversight for agent swarms whose own logs can lie.
 Built for the **Apart Research Swarm Alignment Hackathon** (Nov 6–8, 2026),
 Track 4 — Multi-Agent Oversight and Control (cross-track: Track 1 sandboxing).
 Solo entry: Toni Adreal.
+Repository: https://github.com/ToniAdreal/receipts-not-reports
+Report: `report/Receipts_Not_Reports.pdf` (rebuild with
+`python3 report/build_pdf.py`).
 
 ## The question
 

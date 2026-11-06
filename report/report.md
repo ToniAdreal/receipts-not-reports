@@ -342,10 +342,10 @@ commit first, then let the agent act.
 
 ## Code and Data
 
-* Code repository: included in the submission package (`app/` — Python
-  standard library only, deterministic, zero-key). A public repository
-  link will be added on submission; the preexisting VerifyGate design is
-  at https://github.com/ToniAdreal/verifygate.
+* Code repository: https://github.com/ToniAdreal/receipts-not-reports
+  (Python standard library only, deterministic, zero-key). The
+  preexisting VerifyGate design is at
+  https://github.com/ToniAdreal/verifygate.
 * Data: all experiment outputs are generated from real runs and included
   in `experiments/results/` (`sweep.json`, `sweep.md`, `sweep.png`).
   Reproduce with `python3 -m pytest tests/ -q` and
