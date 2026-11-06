@@ -1,0 +1,3377 @@
+{
+  "aggregated": [
+    {
+      "agents": 4,
+      "events": 0,
+      "monitors": {
+        "evidence-gated": {
+          "detected": 0,
+          "detection_rate": null,
+          "false_positive_rate": 0.0,
+          "false_positives": 0,
+          "mean_latency_rounds": null,
+          "spoof_acceptance_rate": null
+        },
+        "naive": {
+          "detected": 0,
+          "detection_rate": null,
+          "false_positive_rate": 0.0,
+          "false_positives": 0,
+          "mean_latency_rounds": null,
+          "spoof_acceptance_rate": null
+        }
+      },
+      "runs": 3,
+      "seeds": [
+        1,
+        7,
+        42
+      ],
+      "spoofed_claims": 0,
+      "tamper_fraction": 0.0
+    },
+    {
+      "agents": 8,
+      "events": 0,
+      "monitors": {
+        "evidence-gated": {
+          "detected": 0,
+          "detection_rate": null,
+          "false_positive_rate": 0.0,
+          "false_positives": 0,
+          "mean_latency_rounds": null,
+          "spoof_acceptance_rate": null
+        },
+        "naive": {
+          "detected": 0,
+          "detection_rate": null,
+          "false_positive_rate": 0.0,
+          "false_positives": 0,
+          "mean_latency_rounds": null,
+          "spoof_acceptance_rate": null
+        }
+      },
+      "runs": 3,
+      "seeds": [
+        1,
+        7,
+        42
+      ],
+      "spoofed_claims": 0,
+      "tamper_fraction": 0.0
+    },
+    {
+      "agents": 4,
+      "events": 15,
+      "monitors": {
+        "evidence-gated": {
+          "detected": 15,
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "false_positives": 0,
+          "mean_latency_rounds": 0.0,
+          "spoof_acceptance_rate": 0.0
+        },
+        "naive": {
+          "detected": 10,
+          "detection_rate": 0.6666666666666666,
+          "false_positive_rate": 0.4444444444444444,
+          "false_positives": 4,
+          "mean_latency_rounds": 1.9444444444444444,
+          "spoof_acceptance_rate": 1.0
+        }
+      },
+      "runs": 3,
+      "seeds": [
+        1,
+        7,
+        42
+      ],
+      "spoofed_claims": 3,
+      "tamper_fraction": 0.25
+    },
+    {
+      "agents": 8,
+      "events": 30,
+      "monitors": {
+        "evidence-gated": {
+          "detected": 30,
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "false_positives": 0,
+          "mean_latency_rounds": 0.0,
+          "spoof_acceptance_rate": 0.0
+        },
+        "naive": {
+          "detected": 21,
+          "detection_rate": 0.7000000000000001,
+          "false_positive_rate": 0.38888888888888884,
+          "false_positives": 7,
+          "mean_latency_rounds": 2.237037037037037,
+          "spoof_acceptance_rate": 1.0
+        }
+      },
+      "runs": 3,
+      "seeds": [
+        1,
+        7,
+        42
+      ],
+      "spoofed_claims": 6,
+      "tamper_fraction": 0.25
+    },
+    {
+      "agents": 4,
+      "events": 30,
+      "monitors": {
+        "evidence-gated": {
+          "detected": 30,
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "false_positives": 0,
+          "mean_latency_rounds": 0.0,
+          "spoof_acceptance_rate": 0.0
+        },
+        "naive": {
+          "detected": 20,
+          "detection_rate": 0.6666666666666666,
+          "false_positive_rate": 0.8333333333333334,
+          "false_positives": 5,
+          "mean_latency_rounds": 2.066666666666667,
+          "spoof_acceptance_rate": 1.0
+        }
+      },
+      "runs": 3,
+      "seeds": [
+        1,
+        7,
+        42
+      ],
+      "spoofed_claims": 6,
+      "tamper_fraction": 0.5
+    },
+    {
+      "agents": 8,
+      "events": 60,
+      "monitors": {
+        "evidence-gated": {
+          "detected": 60,
+          "detection_rate": 1.0,
+          "false_positive_rate": 0.0,
+          "false_positives": 0,
+          "mean_latency_rounds": 0.0,
+          "spoof_acceptance_rate": 0.0
+        },
+        "naive": {
+          "detected": 33,
+          "detection_rate": 0.5499999999999999,
+          "false_positive_rate": 0.5,
+          "false_positives": 6,
+          "mean_latency_rounds": 2.2735042735042734,
+          "spoof_acceptance_rate": 1.0
+        }
+      },
+      "runs": 3,
+      "seeds": [
+        1,
+        7,
+        42
+      ],
+      "spoofed_claims": 11,
+      "tamper_fraction": 0.5
+    },
+    {
+      "agents": 4,
+      "events": 45,
+      "monitors": {
+        "evidence-gated": {
+          "detected": 44,
+          "detection_rate": 0.9777777777777779,
+          "false_positive_rate": 0.0,
+          "false_positives": 0,
+          "mean_latency_rounds": 0.0,
+          "spoof_acceptance_rate": 0.0
+        },
+        "naive": {
+          "detected": 29,
+          "detection_rate": 0.6444444444444444,
+          "false_positive_rate": 0.6666666666666666,
+          "false_positives": 2,
+          "mean_latency_rounds": 2.1082251082251084,
+          "spoof_acceptance_rate": 1.0
+        }
+      },
+      "runs": 3,
+      "seeds": [
+        1,
+        7,
+        42
+      ],
+      "spoofed_claims": 6,
+      "tamper_fraction": 0.75
+    },
+    {
+      "agents": 8,
+      "events": 90,
+      "monitors": {
+        "evidence-gated": {
+          "detected": 89,
+          "detection_rate": 0.9888888888888889,
+          "false_positive_rate": 0.0,
+          "false_positives": 0,
+          "mean_latency_rounds": 0.0,
+          "spoof_acceptance_rate": 0.0
+        },
+        "naive": {
+          "detected": 44,
+          "detection_rate": 0.4888888888888889,
+          "false_positive_rate": 0.5,
+          "false_positives": 3,
+          "mean_latency_rounds": 2.117543859649123,
+          "spoof_acceptance_rate": 1.0
+        }
+      },
+      "runs": 3,
+      "seeds": [
+        1,
+        7,
+        42
+      ],
+      "spoofed_claims": 17,
+      "tamper_fraction": 0.75
+    },
+    {
+      "agents": 4,
+      "events": 60,
+      "monitors": {
+        "evidence-gated": {
+          "detected": 60,
+          "detection_rate": 1.0,
+          "false_positive_rate": null,
+          "false_positives": 0,
+          "mean_latency_rounds": 0.0,
+          "spoof_acceptance_rate": 0.0
+        },
+        "naive": {
+          "detected": 31,
+          "detection_rate": 0.5166666666666667,
+          "false_positive_rate": null,
+          "false_positives": 0,
+          "mean_latency_rounds": 2.128846153846154,
+          "spoof_acceptance_rate": 1.0
+        }
+      },
+      "runs": 3,
+      "seeds": [
+        1,
+        7,
+        42
+      ],
+      "spoofed_claims": 12,
+      "tamper_fraction": 1.0
+    },
+    {
+      "agents": 8,
+      "events": 120,
+      "monitors": {
+        "evidence-gated": {
+          "detected": 118,
+          "detection_rate": 0.9833333333333334,
+          "false_positive_rate": null,
+          "false_positives": 0,
+          "mean_latency_rounds": 0.0,
+          "spoof_acceptance_rate": 0.0
+        },
+        "naive": {
+          "detected": 63,
+          "detection_rate": 0.525,
+          "false_positive_rate": null,
+          "false_positives": 0,
+          "mean_latency_rounds": 2.0963341858482525,
+          "spoof_acceptance_rate": 1.0
+        }
+      },
+      "runs": 3,
+      "seeds": [
+        1,
+        7,
+        42
+      ],
+      "spoofed_claims": 24,
+      "tamper_fraction": 1.0
+    }
+  ],
+  "rows": [
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "55764158425668cb3d7f0b4ce2714ea10a715a79ad7a8bb9dbf7f0b268475066",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            }
+          },
+          "chain_ok": true,
+          "detected": 0,
+          "detection_rate": null,
+          "events": 0,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [],
+          "mean_latency_rounds": null,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": null,
+          "spoofed_claims": 0,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            }
+          },
+          "chain_ok": true,
+          "detected": 0,
+          "detection_rate": null,
+          "events": 0,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [],
+          "mean_latency_rounds": null,
+          "monitor": "naive",
+          "spoof_acceptance_rate": null,
+          "spoofed_claims": 0,
+          "spoofed_claims_accepted": 0
+        }
+      },
+      "rounds": 5,
+      "seed": 42,
+      "tamper_fraction": 0.0,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": []
+    },
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "a0a7bfc2871c783903b31623e0278d36feec142c613736b6bde94df8eacfb969",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            }
+          },
+          "chain_ok": true,
+          "detected": 0,
+          "detection_rate": null,
+          "events": 0,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [],
+          "mean_latency_rounds": null,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": null,
+          "spoofed_claims": 0,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            }
+          },
+          "chain_ok": true,
+          "detected": 0,
+          "detection_rate": null,
+          "events": 0,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [],
+          "mean_latency_rounds": null,
+          "monitor": "naive",
+          "spoof_acceptance_rate": null,
+          "spoofed_claims": 0,
+          "spoofed_claims_accepted": 0
+        }
+      },
+      "rounds": 5,
+      "seed": 1,
+      "tamper_fraction": 0.0,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": []
+    },
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "c6536a845e018ff0d20afd6122f286e7516e1d8ddf78e38c94108301f195c8c3",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            }
+          },
+          "chain_ok": true,
+          "detected": 0,
+          "detection_rate": null,
+          "events": 0,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [],
+          "mean_latency_rounds": null,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": null,
+          "spoofed_claims": 0,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            }
+          },
+          "chain_ok": true,
+          "detected": 0,
+          "detection_rate": null,
+          "events": 0,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [],
+          "mean_latency_rounds": null,
+          "monitor": "naive",
+          "spoof_acceptance_rate": null,
+          "spoofed_claims": 0,
+          "spoofed_claims_accepted": 0
+        }
+      },
+      "rounds": 5,
+      "seed": 7,
+      "tamper_fraction": 0.0,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": []
+    },
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "55764158425668cb3d7f0b4ce2714ea10a715a79ad7a8bb9dbf7f0b268475066",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 2,
+              "events": 2,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 5,
+          "detection_rate": 1.0,
+          "events": 5,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-1"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 1,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 2,
+              "events": 2,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 1,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 1,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 3,
+          "detection_rate": 0.6,
+          "events": 5,
+          "false_positive_rate": 0.3333333333333333,
+          "false_positives": [
+            "agent-3"
+          ],
+          "flagged_agents": [
+            "agent-1",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 1.6666666666666667,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 1,
+          "spoofed_claims_accepted": 1
+        }
+      },
+      "rounds": 5,
+      "seed": 42,
+      "tamper_fraction": 0.25,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-1"
+      ]
+    },
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "a0a7bfc2871c783903b31623e0278d36feec142c613736b6bde94df8eacfb969",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            }
+          },
+          "chain_ok": true,
+          "detected": 5,
+          "detection_rate": 1.0,
+          "events": 5,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-3"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": null,
+          "spoofed_claims": 0,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 1,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            }
+          },
+          "chain_ok": true,
+          "detected": 4,
+          "detection_rate": 0.8,
+          "events": 5,
+          "false_positive_rate": 0.6666666666666666,
+          "false_positives": [
+            "agent-1",
+            "agent-2"
+          ],
+          "flagged_agents": [
+            "agent-1",
+            "agent-2",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 1.5,
+          "monitor": "naive",
+          "spoof_acceptance_rate": null,
+          "spoofed_claims": 0,
+          "spoofed_claims_accepted": 0
+        }
+      },
+      "rounds": 5,
+      "seed": 1,
+      "tamper_fraction": 0.25,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-3"
+      ]
+    },
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "c6536a845e018ff0d20afd6122f286e7516e1d8ddf78e38c94108301f195c8c3",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 2,
+              "events": 2,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 2,
+              "events": 2,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 5,
+          "detection_rate": 1.0,
+          "events": 5,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-1"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 2,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 2,
+              "events": 2,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 2,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 3,
+          "detection_rate": 0.6,
+          "events": 5,
+          "false_positive_rate": 0.3333333333333333,
+          "false_positives": [
+            "agent-2"
+          ],
+          "flagged_agents": [
+            "agent-1",
+            "agent-2"
+          ],
+          "mean_latency_rounds": 2.6666666666666665,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 2,
+          "spoofed_claims_accepted": 2
+        }
+      },
+      "rounds": 5,
+      "seed": 7,
+      "tamper_fraction": 0.25,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-1"
+      ]
+    },
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "55764158425668cb3d7f0b4ce2714ea10a715a79ad7a8bb9dbf7f0b268475066",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 2,
+              "events": 2,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 10,
+          "detection_rate": 1.0,
+          "events": 10,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-1",
+            "agent-2"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 3,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 2,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 3,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 5,
+          "detection_rate": 0.5,
+          "events": 10,
+          "false_positive_rate": 0.5,
+          "false_positives": [
+            "agent-3"
+          ],
+          "flagged_agents": [
+            "agent-1",
+            "agent-2",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 2.2,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 3,
+          "spoofed_claims_accepted": 3
+        }
+      },
+      "rounds": 5,
+      "seed": 42,
+      "tamper_fraction": 0.5,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-1",
+        "agent-2"
+      ]
+    },
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "a0a7bfc2871c783903b31623e0278d36feec142c613736b6bde94df8eacfb969",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 10,
+          "detection_rate": 1.0,
+          "events": 10,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 1,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 1,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 1,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 8,
+          "detection_rate": 0.8,
+          "events": 10,
+          "false_positive_rate": 1.0,
+          "false_positives": [
+            "agent-1",
+            "agent-2"
+          ],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 2.0,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 1,
+          "spoofed_claims_accepted": 1
+        }
+      },
+      "rounds": 5,
+      "seed": 1,
+      "tamper_fraction": 0.5,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-0",
+        "agent-3"
+      ]
+    },
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "c6536a845e018ff0d20afd6122f286e7516e1d8ddf78e38c94108301f195c8c3",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 2,
+              "events": 2,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 10,
+          "detection_rate": 1.0,
+          "events": 10,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-1",
+            "agent-2"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 2,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 1,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 2,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 7,
+          "detection_rate": 0.7,
+          "events": 10,
+          "false_positive_rate": 1.0,
+          "false_positives": [
+            "agent-0",
+            "agent-3"
+          ],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 2.0,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 2,
+          "spoofed_claims_accepted": 2
+        }
+      },
+      "rounds": 5,
+      "seed": 7,
+      "tamper_fraction": 0.5,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-1",
+        "agent-2"
+      ]
+    },
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "55764158425668cb3d7f0b4ce2714ea10a715a79ad7a8bb9dbf7f0b268475066",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 15,
+          "detection_rate": 1.0,
+          "events": 15,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 3,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 4,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 4,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 7,
+          "detection_rate": 0.4666666666666667,
+          "events": 15,
+          "false_positive_rate": 1.0,
+          "false_positives": [
+            "agent-3"
+          ],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 2.142857142857143,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 3,
+          "spoofed_claims_accepted": 3
+        }
+      },
+      "rounds": 5,
+      "seed": 42,
+      "tamper_fraction": 0.75,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-0",
+        "agent-1",
+        "agent-2"
+      ]
+    },
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "a0a7bfc2871c783903b31623e0278d36feec142c613736b6bde94df8eacfb969",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 7,
+              "events": 7,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 15,
+          "detection_rate": 1.0,
+          "events": 15,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 1,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 3,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 7,
+              "events": 7,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 1,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 11,
+          "detection_rate": 0.7333333333333333,
+          "events": 15,
+          "false_positive_rate": 1.0,
+          "false_positives": [
+            "agent-2"
+          ],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 2.272727272727273,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 1,
+          "spoofed_claims_accepted": 1
+        }
+      },
+      "rounds": 5,
+      "seed": 1,
+      "tamper_fraction": 0.75,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-0",
+        "agent-1",
+        "agent-3"
+      ]
+    },
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "c6536a845e018ff0d20afd6122f286e7516e1d8ddf78e38c94108301f195c8c3",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 2,
+              "events": 2,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 5,
+              "events": 6,
+              "rate": 0.8333333333333334
+            },
+            "spoof": {
+              "detected": 2,
+              "events": 2,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 14,
+          "detection_rate": 0.9333333333333333,
+          "events": 15,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 2,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 2,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 6,
+              "events": 6,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 2,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 11,
+          "detection_rate": 0.7333333333333333,
+          "events": 15,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2"
+          ],
+          "mean_latency_rounds": 1.9090909090909092,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 2,
+          "spoofed_claims_accepted": 2
+        }
+      },
+      "rounds": 5,
+      "seed": 7,
+      "tamper_fraction": 0.75,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-0",
+        "agent-1",
+        "agent-2"
+      ]
+    },
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "55764158425668cb3d7f0b4ce2714ea10a715a79ad7a8bb9dbf7f0b268475066",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 6,
+              "events": 6,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 20,
+          "detection_rate": 1.0,
+          "events": 20,
+          "false_positive_rate": null,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 6,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 3,
+              "events": 4,
+              "rate": 0.75
+            },
+            "edit": {
+              "detected": 0,
+              "events": 5,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 6,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 8,
+          "detection_rate": 0.4,
+          "events": 20,
+          "false_positive_rate": null,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 1.625,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 6,
+          "spoofed_claims_accepted": 6
+        }
+      },
+      "rounds": 5,
+      "seed": 42,
+      "tamper_fraction": 1.0,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-0",
+        "agent-1",
+        "agent-2",
+        "agent-3"
+      ]
+    },
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "a0a7bfc2871c783903b31623e0278d36feec142c613736b6bde94df8eacfb969",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 8,
+              "events": 8,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 20,
+          "detection_rate": 1.0,
+          "events": 20,
+          "false_positive_rate": null,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 3,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 4,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 8,
+              "events": 8,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 3,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 13,
+          "detection_rate": 0.65,
+          "events": 20,
+          "false_positive_rate": null,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 2.4615384615384617,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 3,
+          "spoofed_claims_accepted": 3
+        }
+      },
+      "rounds": 5,
+      "seed": 1,
+      "tamper_fraction": 1.0,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-0",
+        "agent-1",
+        "agent-2",
+        "agent-3"
+      ]
+    },
+    {
+      "agents": 4,
+      "committed_actions": 100,
+      "head_hash": "c6536a845e018ff0d20afd6122f286e7516e1d8ddf78e38c94108301f195c8c3",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 6,
+              "events": 6,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 6,
+              "events": 6,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 20,
+          "detection_rate": 1.0,
+          "events": 20,
+          "false_positive_rate": null,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 3,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 6,
+              "events": 6,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 5,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 4,
+              "events": 6,
+              "rate": 0.6666666666666666
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 3,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 10,
+          "detection_rate": 0.5,
+          "events": 20,
+          "false_positive_rate": null,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-3"
+          ],
+          "mean_latency_rounds": 2.3,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 3,
+          "spoofed_claims_accepted": 3
+        }
+      },
+      "rounds": 5,
+      "seed": 7,
+      "tamper_fraction": 1.0,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-0",
+        "agent-1",
+        "agent-2",
+        "agent-3"
+      ]
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "2085afea10ec8ba1f6a0de2b7af3e0bab6145a7dcc28f64ee670fe0aee3b066c",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            }
+          },
+          "chain_ok": true,
+          "detected": 0,
+          "detection_rate": null,
+          "events": 0,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [],
+          "mean_latency_rounds": null,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": null,
+          "spoofed_claims": 0,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            }
+          },
+          "chain_ok": true,
+          "detected": 0,
+          "detection_rate": null,
+          "events": 0,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [],
+          "mean_latency_rounds": null,
+          "monitor": "naive",
+          "spoof_acceptance_rate": null,
+          "spoofed_claims": 0,
+          "spoofed_claims_accepted": 0
+        }
+      },
+      "rounds": 5,
+      "seed": 42,
+      "tamper_fraction": 0.0,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": []
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "d07058c3c68ec38335ef044cd4388f9d665e87cacafb2dd92088c52bdad5cbe4",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            }
+          },
+          "chain_ok": true,
+          "detected": 0,
+          "detection_rate": null,
+          "events": 0,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [],
+          "mean_latency_rounds": null,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": null,
+          "spoofed_claims": 0,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            }
+          },
+          "chain_ok": true,
+          "detected": 0,
+          "detection_rate": null,
+          "events": 0,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [],
+          "mean_latency_rounds": null,
+          "monitor": "naive",
+          "spoof_acceptance_rate": null,
+          "spoofed_claims": 0,
+          "spoofed_claims_accepted": 0
+        }
+      },
+      "rounds": 5,
+      "seed": 1,
+      "tamper_fraction": 0.0,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": []
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "6a8f0d20b3abdb38e63637eca5d996a825e66f15b6203bcf094ecd71a25a9db2",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            }
+          },
+          "chain_ok": true,
+          "detected": 0,
+          "detection_rate": null,
+          "events": 0,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [],
+          "mean_latency_rounds": null,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": null,
+          "spoofed_claims": 0,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            }
+          },
+          "chain_ok": true,
+          "detected": 0,
+          "detection_rate": null,
+          "events": 0,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [],
+          "mean_latency_rounds": null,
+          "monitor": "naive",
+          "spoof_acceptance_rate": null,
+          "spoofed_claims": 0,
+          "spoofed_claims_accepted": 0
+        }
+      },
+      "rounds": 5,
+      "seed": 7,
+      "tamper_fraction": 0.0,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": []
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "2085afea10ec8ba1f6a0de2b7af3e0bab6145a7dcc28f64ee670fe0aee3b066c",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 2,
+              "events": 2,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 2,
+              "events": 2,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 10,
+          "detection_rate": 1.0,
+          "events": 10,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-3",
+            "agent-5"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 3,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 2,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 2,
+              "events": 2,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 3,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 5,
+          "detection_rate": 0.5,
+          "events": 10,
+          "false_positive_rate": 0.3333333333333333,
+          "false_positives": [
+            "agent-1",
+            "agent-6"
+          ],
+          "flagged_agents": [
+            "agent-1",
+            "agent-3",
+            "agent-5",
+            "agent-6"
+          ],
+          "mean_latency_rounds": 2.6,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 3,
+          "spoofed_claims_accepted": 3
+        }
+      },
+      "rounds": 5,
+      "seed": 42,
+      "tamper_fraction": 0.25,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-3",
+        "agent-5"
+      ]
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "d07058c3c68ec38335ef044cd4388f9d665e87cacafb2dd92088c52bdad5cbe4",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 10,
+          "detection_rate": 1.0,
+          "events": 10,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-4",
+            "agent-6"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 1,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 0,
+              "rate": null
+            },
+            "rename": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 1,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 9,
+          "detection_rate": 0.9,
+          "events": 10,
+          "false_positive_rate": 0.3333333333333333,
+          "false_positives": [
+            "agent-1",
+            "agent-2"
+          ],
+          "flagged_agents": [
+            "agent-1",
+            "agent-2",
+            "agent-4",
+            "agent-6"
+          ],
+          "mean_latency_rounds": 2.111111111111111,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 1,
+          "spoofed_claims_accepted": 1
+        }
+      },
+      "rounds": 5,
+      "seed": 1,
+      "tamper_fraction": 0.25,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-4",
+        "agent-6"
+      ]
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "6a8f0d20b3abdb38e63637eca5d996a825e66f15b6203bcf094ecd71a25a9db2",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 1,
+              "events": 1,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 2,
+              "events": 2,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 10,
+          "detection_rate": 1.0,
+          "events": 10,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-3",
+            "agent-5"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 2,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 1,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 2,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 7,
+          "detection_rate": 0.7,
+          "events": 10,
+          "false_positive_rate": 0.5,
+          "false_positives": [
+            "agent-1",
+            "agent-2",
+            "agent-6"
+          ],
+          "flagged_agents": [
+            "agent-1",
+            "agent-2",
+            "agent-3",
+            "agent-5",
+            "agent-6"
+          ],
+          "mean_latency_rounds": 2.0,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 2,
+          "spoofed_claims_accepted": 2
+        }
+      },
+      "rounds": 5,
+      "seed": 7,
+      "tamper_fraction": 0.25,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-3",
+        "agent-5"
+      ]
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "2085afea10ec8ba1f6a0de2b7af3e0bab6145a7dcc28f64ee670fe0aee3b066c",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 6,
+              "events": 6,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 20,
+          "detection_rate": 1.0,
+          "events": 20,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-2",
+            "agent-3",
+            "agent-5",
+            "agent-6"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 5,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 2,
+              "events": 4,
+              "rate": 0.5
+            },
+            "edit": {
+              "detected": 0,
+              "events": 5,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 6,
+              "events": 6,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 5,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 8,
+          "detection_rate": 0.4,
+          "events": 20,
+          "false_positive_rate": 0.5,
+          "false_positives": [
+            "agent-0",
+            "agent-4"
+          ],
+          "flagged_agents": [
+            "agent-0",
+            "agent-2",
+            "agent-4",
+            "agent-6"
+          ],
+          "mean_latency_rounds": 2.0,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 5,
+          "spoofed_claims_accepted": 5
+        }
+      },
+      "rounds": 5,
+      "seed": 42,
+      "tamper_fraction": 0.5,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-2",
+        "agent-3",
+        "agent-5",
+        "agent-6"
+      ]
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "d07058c3c68ec38335ef044cd4388f9d665e87cacafb2dd92088c52bdad5cbe4",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 7,
+              "events": 7,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 20,
+          "detection_rate": 1.0,
+          "events": 20,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-1",
+            "agent-2",
+            "agent-4",
+            "agent-6"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 4,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 4,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 7,
+              "events": 7,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 4,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 12,
+          "detection_rate": 0.6,
+          "events": 20,
+          "false_positive_rate": 0.5,
+          "false_positives": [
+            "agent-3",
+            "agent-5"
+          ],
+          "flagged_agents": [
+            "agent-1",
+            "agent-2",
+            "agent-3",
+            "agent-4",
+            "agent-5",
+            "agent-6"
+          ],
+          "mean_latency_rounds": 2.6666666666666665,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 4,
+          "spoofed_claims_accepted": 4
+        }
+      },
+      "rounds": 5,
+      "seed": 1,
+      "tamper_fraction": 0.5,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-1",
+        "agent-2",
+        "agent-4",
+        "agent-6"
+      ]
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "6a8f0d20b3abdb38e63637eca5d996a825e66f15b6203bcf094ecd71a25a9db2",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 8,
+              "events": 8,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 2,
+              "events": 2,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 20,
+          "detection_rate": 1.0,
+          "events": 20,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-2",
+            "agent-3",
+            "agent-5"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 2,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 8,
+              "events": 8,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 5,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 5,
+              "events": 5,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 2,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 13,
+          "detection_rate": 0.65,
+          "events": 20,
+          "false_positive_rate": 0.5,
+          "false_positives": [
+            "agent-1",
+            "agent-4"
+          ],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3",
+            "agent-4",
+            "agent-5"
+          ],
+          "mean_latency_rounds": 2.1538461538461537,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 2,
+          "spoofed_claims_accepted": 2
+        }
+      },
+      "rounds": 5,
+      "seed": 7,
+      "tamper_fraction": 0.5,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-0",
+        "agent-2",
+        "agent-3",
+        "agent-5"
+      ]
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "2085afea10ec8ba1f6a0de2b7af3e0bab6145a7dcc28f64ee670fe0aee3b066c",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 7,
+              "events": 7,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 7,
+              "events": 7,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 6,
+              "events": 7,
+              "rate": 0.8571428571428571
+            },
+            "spoof": {
+              "detected": 9,
+              "events": 9,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 29,
+          "detection_rate": 0.9666666666666667,
+          "events": 30,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-1",
+            "agent-2",
+            "agent-3",
+            "agent-4",
+            "agent-5",
+            "agent-6"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 8,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 5,
+              "events": 7,
+              "rate": 0.7142857142857143
+            },
+            "edit": {
+              "detected": 0,
+              "events": 7,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 5,
+              "events": 7,
+              "rate": 0.7142857142857143
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 9,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 10,
+          "detection_rate": 0.3333333333333333,
+          "events": 30,
+          "false_positive_rate": 0.5,
+          "false_positives": [
+            "agent-0"
+          ],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3",
+            "agent-5"
+          ],
+          "mean_latency_rounds": 2.1,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 8,
+          "spoofed_claims_accepted": 8
+        }
+      },
+      "rounds": 5,
+      "seed": 42,
+      "tamper_fraction": 0.75,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-1",
+        "agent-2",
+        "agent-3",
+        "agent-4",
+        "agent-5",
+        "agent-6"
+      ]
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "d07058c3c68ec38335ef044cd4388f9d665e87cacafb2dd92088c52bdad5cbe4",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 8,
+              "events": 8,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 4,
+              "events": 4,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 10,
+              "events": 10,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 8,
+              "events": 8,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 30,
+          "detection_rate": 1.0,
+          "events": 30,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-4",
+            "agent-6",
+            "agent-7"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 7,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 8,
+              "events": 8,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 4,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 7,
+              "events": 10,
+              "rate": 0.7
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 8,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 15,
+          "detection_rate": 0.5,
+          "events": 30,
+          "false_positive_rate": 0.5,
+          "false_positives": [
+            "agent-3"
+          ],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3",
+            "agent-4",
+            "agent-7"
+          ],
+          "mean_latency_rounds": 2.2,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 7,
+          "spoofed_claims_accepted": 7
+        }
+      },
+      "rounds": 5,
+      "seed": 1,
+      "tamper_fraction": 0.75,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-0",
+        "agent-1",
+        "agent-2",
+        "agent-4",
+        "agent-6",
+        "agent-7"
+      ]
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "6a8f0d20b3abdb38e63637eca5d996a825e66f15b6203bcf094ecd71a25a9db2",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 12,
+              "events": 12,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 6,
+              "events": 6,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 9,
+              "events": 9,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 3,
+              "events": 3,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 30,
+          "detection_rate": 1.0,
+          "events": 30,
+          "false_positive_rate": 0.0,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3",
+            "agent-4",
+            "agent-5"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 2,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 11,
+              "events": 12,
+              "rate": 0.9166666666666666
+            },
+            "edit": {
+              "detected": 0,
+              "events": 6,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 8,
+              "events": 9,
+              "rate": 0.8888888888888888
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 3,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 19,
+          "detection_rate": 0.6333333333333333,
+          "events": 30,
+          "false_positive_rate": 0.5,
+          "false_positives": [
+            "agent-6"
+          ],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-3",
+            "agent-4",
+            "agent-5",
+            "agent-6"
+          ],
+          "mean_latency_rounds": 2.0526315789473686,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 2,
+          "spoofed_claims_accepted": 2
+        }
+      },
+      "rounds": 5,
+      "seed": 7,
+      "tamper_fraction": 0.75,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-0",
+        "agent-1",
+        "agent-2",
+        "agent-3",
+        "agent-4",
+        "agent-5"
+      ]
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "2085afea10ec8ba1f6a0de2b7af3e0bab6145a7dcc28f64ee670fe0aee3b066c",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 10,
+              "events": 10,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 10,
+              "events": 10,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 10,
+              "events": 10,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 10,
+              "events": 10,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 40,
+          "detection_rate": 1.0,
+          "events": 40,
+          "false_positive_rate": null,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3",
+            "agent-4",
+            "agent-5",
+            "agent-6",
+            "agent-7"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 10,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 8,
+              "events": 10,
+              "rate": 0.8
+            },
+            "edit": {
+              "detected": 0,
+              "events": 10,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 9,
+              "events": 10,
+              "rate": 0.9
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 10,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 17,
+          "detection_rate": 0.425,
+          "events": 40,
+          "false_positive_rate": null,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3",
+            "agent-4",
+            "agent-7"
+          ],
+          "mean_latency_rounds": 1.9411764705882353,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 10,
+          "spoofed_claims_accepted": 10
+        }
+      },
+      "rounds": 5,
+      "seed": 42,
+      "tamper_fraction": 1.0,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-0",
+        "agent-1",
+        "agent-2",
+        "agent-3",
+        "agent-4",
+        "agent-5",
+        "agent-6",
+        "agent-7"
+      ]
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "d07058c3c68ec38335ef044cd4388f9d665e87cacafb2dd92088c52bdad5cbe4",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 10,
+              "events": 10,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 7,
+              "events": 7,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 13,
+              "events": 15,
+              "rate": 0.8666666666666667
+            },
+            "spoof": {
+              "detected": 8,
+              "events": 8,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 38,
+          "detection_rate": 0.95,
+          "events": 40,
+          "false_positive_rate": null,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3",
+            "agent-4",
+            "agent-5",
+            "agent-6",
+            "agent-7"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 7,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 9,
+              "events": 10,
+              "rate": 0.9
+            },
+            "edit": {
+              "detected": 0,
+              "events": 7,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 14,
+              "events": 15,
+              "rate": 0.9333333333333333
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 8,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 23,
+          "detection_rate": 0.575,
+          "events": 40,
+          "false_positive_rate": null,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3",
+            "agent-4",
+            "agent-5",
+            "agent-6"
+          ],
+          "mean_latency_rounds": 2.0869565217391304,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 7,
+          "spoofed_claims_accepted": 7
+        }
+      },
+      "rounds": 5,
+      "seed": 1,
+      "tamper_fraction": 1.0,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-0",
+        "agent-1",
+        "agent-2",
+        "agent-3",
+        "agent-4",
+        "agent-5",
+        "agent-6",
+        "agent-7"
+      ]
+    },
+    {
+      "agents": 8,
+      "committed_actions": 200,
+      "head_hash": "6a8f0d20b3abdb38e63637eca5d996a825e66f15b6203bcf094ecd71a25a9db2",
+      "monitors": {
+        "evidence-gated": {
+          "by_kind": {
+            "delete": {
+              "detected": 12,
+              "events": 12,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 10,
+              "events": 10,
+              "rate": 1.0
+            },
+            "rename": {
+              "detected": 11,
+              "events": 11,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 7,
+              "events": 7,
+              "rate": 1.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 40,
+          "detection_rate": 1.0,
+          "events": 40,
+          "false_positive_rate": null,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3",
+            "agent-4",
+            "agent-5",
+            "agent-6",
+            "agent-7"
+          ],
+          "mean_latency_rounds": 0.0,
+          "monitor": "evidence-gated",
+          "spoof_acceptance_rate": 0.0,
+          "spoofed_claims": 7,
+          "spoofed_claims_accepted": 0
+        },
+        "naive": {
+          "by_kind": {
+            "delete": {
+              "detected": 12,
+              "events": 12,
+              "rate": 1.0
+            },
+            "edit": {
+              "detected": 0,
+              "events": 10,
+              "rate": 0.0
+            },
+            "rename": {
+              "detected": 11,
+              "events": 11,
+              "rate": 1.0
+            },
+            "spoof": {
+              "detected": 0,
+              "events": 7,
+              "rate": 0.0
+            }
+          },
+          "chain_ok": true,
+          "detected": 23,
+          "detection_rate": 0.575,
+          "events": 40,
+          "false_positive_rate": null,
+          "false_positives": [],
+          "flagged_agents": [
+            "agent-0",
+            "agent-1",
+            "agent-2",
+            "agent-3",
+            "agent-4",
+            "agent-5",
+            "agent-6"
+          ],
+          "mean_latency_rounds": 2.260869565217391,
+          "monitor": "naive",
+          "spoof_acceptance_rate": 1.0,
+          "spoofed_claims": 7,
+          "spoofed_claims_accepted": 7
+        }
+      },
+      "rounds": 5,
+      "seed": 7,
+      "tamper_fraction": 1.0,
+      "tamper_kinds": [
+        "edit",
+        "delete",
+        "spoof",
+        "rename"
+      ],
+      "tamperers": [
+        "agent-0",
+        "agent-1",
+        "agent-2",
+        "agent-3",
+        "agent-4",
+        "agent-5",
+        "agent-6",
+        "agent-7"
+      ]
+    }
+  ]
+}

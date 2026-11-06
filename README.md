@@ -24,11 +24,12 @@ re-attributed activity.
 
 ## Components
 
-1. **Swarm sandbox** (new): N agents (deterministic scripted personas;
-   optional LLM mode via the Nebius connector CLI, never required) share a
-   message board and a shared resource over R rounds, echoing the incident
-   structure (shared directory turned message board). Everything is logged;
-   runs are seeded and reproducible.
+1. **Swarm sandbox** (new): N agents (deterministic scripted personas)
+   share a message board and a shared resource over R rounds, echoing
+   the incident structure (shared directory turned message board).
+   Everything is logged; runs are seeded and reproducible. An LLM-agent
+   mode was planned but is **not implemented** in this build; all
+   headline results use scripted agents only (see report §5).
 2. **Evidence layer** (PREEXISTING design, adapted — see below): hash-chained
    append-only log; each record commits to the previous hash, the actor, the
    action payload, and a timestamp.
@@ -70,9 +71,10 @@ python3 -m pytest tests/ -q
 PYTHONPATH=src python3 -m receipts.run --help
 ```
 
-Runs are seeded and fully reproducible without any API key. An optional LLM
-mode uses the Nebius connector CLI; it is never required for the headline
-results.
+Runs are seeded and fully reproducible without any API key. No LLM mode
+exists in this build: the headline results use deterministic scripted
+agents only, and adding LLM agents is listed as future work in the
+report (§5).
 
 ## Status
 
@@ -85,8 +87,19 @@ results.
   0.00, mean latency 0.0 rounds; naive detection 0.49–0.70, FPR
   0.39–0.83, spoofed claims accepted 1.00, latency ~2.1 rounds.
   Tests green (53/53).
-- [ ] M5 — Report drafted in the official template (4–8 pages + Limitations and
-      Dual-Use appendices); README final; submission package staged. READY.
+- [x] M5 — Report drafted in the official template (8 body pages +
+      References and appendices, abstract 230 words); README final;
+      submission package staged. READY. Report:
+      `report/Receipts_Not_Reports.pdf` (built from `report/report.md`
+      via `report/build_pdf.py`; headline numbers guarded by
+      `tests/test_report.py` against `experiments/results/sweep.json`).
+      Tests green (59/59); sweep re-run reproduces byte-identical
+      results.
+
+Submission deadline: **2026-11-08 23:59 AoE**. M5 READY as of
+2026-11-05 22:41 PST — well ahead of the 2026-11-08 12:00 PST target.
+Main agent still to do: add a public code-repo link (see
+`report/SUBMISSION_PACKAGE.md`) and submit.
 
 Submission deadline: **2026-11-08 23:59 AoE**. M5 must be READY by
 **2026-11-08 12:00 PST**.
