@@ -67,7 +67,7 @@ report/            # report source + built PDF (built in M5)
 
 ```bash
 python3 -m pytest tests/ -q
-python3 -m receipts.run --help
+PYTHONPATH=src python3 -m receipts.run --help
 ```
 
 Runs are seeded and fully reproducible without any API key. An optional LLM
@@ -77,7 +77,7 @@ results.
 ## Status
 
 - [x] M1 — Guidelines/template fetched; repo scaffolded.
-- [ ] M2 — Evidence layer + swarm sandbox v1; deterministic zero-key run end to end; tests green.
+- [x] M2 — Evidence layer + swarm sandbox v1; deterministic zero-key run end to end; tests green (15/15).
 - [ ] M3 — Tamper injection suite (edit / delete / spoof / rename); tests green.
 - [ ] M4 — Naive vs evidence-gated monitors + experiment runner; sweep results from real runs.
 - [ ] M5 — Report drafted in the official template (4–8 pages + Limitations and
