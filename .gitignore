@@ -6,3 +6,7 @@ venv/
 experiments/results/
 report/*.pdf
 .DS_Store
+
+# build intermediates
+report/report.html
+__pycache__/
