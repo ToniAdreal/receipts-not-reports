@@ -4,7 +4,7 @@ Usage (from app/):
     PYTHONPATH=src python3 -m receipts.run --agents 4 --rounds 5 --seed 42
     PYTHONPATH=src python3 -m receipts.run --agents 4 --rounds 5 --seed 42 --json
     PYTHONPATH=src python3 -m receipts.run --agents 4 --rounds 5 --seed 42 \
-        --tamper-fraction 0.5 --tamper-kinds edit,delete,spoof,rename
+        --tamper-fraction 0.5 --tamper-kinds edit,delete,spoof,rename --monitors
 """
 
 from __future__ import annotations
@@ -24,6 +24,11 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--rounds", type=int, default=5)
     parser.add_argument("--seed", type=int, default=42)
     parser.add_argument("--json", action="store_true", help="print summary as JSON")
+    parser.add_argument(
+        "--monitors",
+        action="store_true",
+        help="also audit the run with both monitors and print the verdicts",
+    )
     parser.add_argument(
         "--tamper-fraction",
         type=float,
@@ -63,6 +68,21 @@ def main(argv: list[str] | None = None) -> int:
         if summary["tamper_events"]:
             print(f"tamperers:        {', '.join(summary['tamperers'])}")
             print(f"tamper events:    {summary['tamper_events']} {summary['tamper_by_kind']}")
+    if args.monitors:
+        from .monitors import EvidenceMonitor, NaiveMonitor, score
+
+        for monitor in (NaiveMonitor(), EvidenceMonitor()):
+            s = score(result, monitor.audit(result))
+            rate = "n/a" if s["detection_rate"] is None else f"{s['detection_rate']:.2f}"
+            fpr = "n/a" if s["false_positive_rate"] is None else f"{s['false_positive_rate']:.2f}"
+            acc = "n/a" if s["spoof_acceptance_rate"] is None else f"{s['spoof_acceptance_rate']:.2f}"
+            lat = "n/a" if s["mean_latency_rounds"] is None else f"{s['mean_latency_rounds']:.1f}"
+            print(
+                f"[{s['monitor']}] chain={'OK' if s['chain_ok'] else 'BROKEN'} "
+                f"detected {s['detected']}/{s['events']} (rate {rate}) "
+                f"FPR {fpr} spoof-accepted {acc} latency {lat} rounds "
+                f"flagged={','.join(s['flagged_agents']) or '-'}"
+            )
     return 0
 
 

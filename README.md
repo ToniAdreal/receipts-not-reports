@@ -79,7 +79,12 @@ results.
 - [x] M1 — Guidelines/template fetched; repo scaffolded.
 - [x] M2 — Evidence layer + swarm sandbox v1; deterministic zero-key run end to end; tests green (15/15).
 - [x] M3 — Tamper injection suite (edit / delete / spoof / rename); tests green (33/33).
-- [ ] M4 — Naive vs evidence-gated monitors + experiment runner; sweep results from real runs.
+- [x] M4 — Naive vs evidence-gated monitors + experiment runner; sweep
+  results from real runs (30 runs, `experiments/results/sweep.*`):
+  evidence-gated detection 0.98–1.00, FPR 0.00, spoofed claims accepted
+  0.00, mean latency 0.0 rounds; naive detection 0.49–0.70, FPR
+  0.39–0.83, spoofed claims accepted 1.00, latency ~2.1 rounds.
+  Tests green (53/53).
 - [ ] M5 — Report drafted in the official template (4–8 pages + Limitations and
       Dual-Use appendices); README final; submission package staged. READY.
 

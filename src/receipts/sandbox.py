@@ -99,6 +99,25 @@ class SharedResource:
 
 
 @dataclass
+class RoundSnapshot:
+    """Environment snapshot taken after one round (turns + tampering).
+
+    A deep copy: later tampering mutates live board messages and agent
+    memories in place, so the snapshot must own its copies. The M4
+    evidence monitor audits these snapshots round by round — that is
+    what makes "detection latency in rounds" a measured quantity, and
+    what catches tampering whose trace later tampering erases (e.g. a
+    message renamed twice, ending up attributed to its true author
+    again and invisible in the final state).
+    """
+
+    round_no: int
+    board: tuple[BoardMessage, ...]
+    # (agent name, copy of that agent's memory so far)
+    memories: tuple[tuple[str, tuple[dict[str, Any], ...]], ...]
+
+
+@dataclass
 class SwarmRun:
     """Everything a run produces, for monitors and experiments."""
 
@@ -111,6 +130,7 @@ class SwarmRun:
     self_reports: list[dict[str, Any]]
     tamper_events: tuple[TamperEvent, ...] = ()
     tamperers: tuple[str, ...] = ()
+    history: tuple[RoundSnapshot, ...] = ()
 
     def summary(self) -> dict[str, Any]:
         ok, _ = self.evidence.verify()
@@ -223,7 +243,24 @@ class Sandbox:
         self._commit(agent, "resource_release", {"resource": "counter"}, round_no)
         self.resource.holder = None
 
+    def _snapshot(self, round_no: int) -> RoundSnapshot:
+        """Deep-copy the agent-controlled record after a round."""
+        return RoundSnapshot(
+            round_no=round_no,
+            board=tuple(
+                BoardMessage(
+                    id=m.id, author=m.author, round_no=m.round_no, text=m.text
+                )
+                for m in self.board
+            ),
+            memories=tuple(
+                (a.name, tuple(dict(entry) for entry in a.memory))
+                for a in self.agents
+            ),
+        )
+
     def run(self) -> SwarmRun:
+        history: list[RoundSnapshot] = []
         for round_no in range(self.rounds):
             for agent in self.agents:
                 self._agent_turn(agent, round_no)
@@ -232,6 +269,7 @@ class Sandbox:
                 self.tamperer.tamper_round(
                     board=self.board, agents=self.agents, round_no=round_no
                 )
+            history.append(self._snapshot(round_no))
         return SwarmRun(
             agents=self.agents_n,
             rounds=self.rounds,
@@ -246,6 +284,7 @@ class Sandbox:
             tamperers=tuple(
                 self.tamperer.tamperer_names if self.tamperer is not None else ()
             ),
+            history=tuple(history),
         )
 
 
