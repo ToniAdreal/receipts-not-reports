@@ -51,5 +51,4 @@ in the paper: same-round cancelling renames (4 missed events).
 - Adaption $500 hackathon credit + 3mo Premium: still not visible as of
   this round (account shows Free plan, 1,000 signup credits); expected
   around kickoff 2026-11-06. Sentinel re-checks each round.
-- Discord join: pending the user's phone-app action; announcements-only,
-  not a build blocker.
+- Discord join: CLOSED 2026-11-05 22:22 PST (user joined from phone app, verified in browser; Alignment Jams server visible, announcements channel loads).
